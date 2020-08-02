@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/sergio-silva/hello-world-go/morestrings"
+)
 
 func main() {
-	fmt.Println("Hello, world.")
+	fmt.Println(morestrings.ReverseRunes("!oG ,olleH."))
 }
